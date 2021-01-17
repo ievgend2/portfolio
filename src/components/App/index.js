@@ -1,5 +1,5 @@
 import { React } from "react";
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { HashRouter as Router, Route } from 'react-router-dom';
 import "./app.css"
 
 import Navigation from '../Navigation';
@@ -16,13 +16,13 @@ const App = () => (
 
 
 
-  <Router>
+  <Router basename="/portfolio">
     <div className="">
       <Navigation />
       <div className="main-content">
-        <Route path={ROUTES.CONTACT} component={Contact} />
-        <Route path={ROUTES.SKILLS} component={Skills} />
         <Route exact path={ROUTES.PROJECTS} component={Projects} />
+        <Route exact path={ROUTES.CONTACT} component={Contact} />
+        <Route exact path={ROUTES.SKILLS} component={Skills} />
       </div>
       <Footer />
     </div>
