@@ -57,8 +57,8 @@ function Projects() {
             </Card.Text>
           </Card.Body>
           <div class="card-footer"><div className="d-flex justify-content-around">
-            <a href="https://github.com/ievgend2/MERN.git" target="_blank" className="btn btn-dark" >Git Repo</a>
-            <a href="https://ievgend2.github.io/mayla_co/#/mayla-co/home" target="_blank" className="btn btn-dark" >Try Now!</a>
+            <a href="https://github.com/ievgend2/student-enrollment-program.git" target="_blank" className="btn btn-dark" >Git Repo</a>
+            <a href="https://ievgend2.github.io/student-enrollment-program/" target="_blank" className="btn btn-dark" >Try Now!</a>
           </div></div>
         </Card>
 
@@ -73,8 +73,8 @@ function Projects() {
             </Card.Text>
           </Card.Body>
           <div class="card-footer"><div className="d-flex justify-content-around">
-            <a href="https://github.com/ievgend2/MERN.git" target="_blank" className="btn btn-dark" >Git Repo</a>
-            <a href="https://ievgend2.github.io/mayla_co/#/mayla-co/home" target="_blank" className="btn btn-dark" >Check weather</a>
+            <a href="https://github.com/ievgend2/forecast.git" target="_blank" className="btn btn-dark" >Git Repo</a>
+            <a href="https://ievgend2.github.io/forecast/" target="_blank" className="btn btn-dark" >Check weather</a>
           </div></div>
         </Card>
 
