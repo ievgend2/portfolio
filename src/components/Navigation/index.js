@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './navigation.css'
 import pdf from "../Resume/ID Resume.pdf";
-// import abc from "./"
 
 
 import * as ROUTES from '../../constants/routes';
@@ -11,11 +10,9 @@ const Navigation = () => (
   <div>
     <header className="main-navigation ">
       {/* <div classNmae="main-navigation_logo"></div> */}
-      <nav className="main-navigation_item justify-content-between">
+      <nav className="main-navigation_item justify-content-between ">
         {/* <div> */}
-        <h3 className="d-flex align-items-center">
-          Ievgen Dotsenko | Portfolio
-            </h3>
+        <span className="d-flex align-items-center f-large">Portfolio</span>
         <ul>
           <li>
             <NavLink to={ROUTES.PROJECTS}>Projects</NavLink>
