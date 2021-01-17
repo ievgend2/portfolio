@@ -3,6 +3,7 @@ import img1 from "../../image/project1.png"
 import img3 from "../../image/project3.png"
 import img4 from "../../image/project4.png"
 import img5 from "../../image/project5.png"
+import img6 from "../../image/project6.png"
 import "../../index.css"
 
 
@@ -97,8 +98,8 @@ function Projects() {
 
         <Card className="text-center card-shadow col-sm-6" >
           <Card.Body >
-            <h5 className="card-header">Weather forecast <br />HTML5 + CSS3 + JavaScript</h5>
-            <Card.Img variant="top" src={img4} className="prj-img" />
+            <h5 className="card-header">Battleship Game <br />HTML5 + CSS3 + JavaScript</h5>
+            <Card.Img variant="top" src={img6} className="prj-img" />
             <Card.Title><span>{ }</span></Card.Title>
             <Card.Text>
               <h5></h5>
@@ -106,8 +107,8 @@ function Projects() {
             </Card.Text>
           </Card.Body>
           <div class="card-footer"><div className="d-flex justify-content-around">
-            <a href="https://github.com/ievgend2/forecast.git" target="_blank" className="btn btn-dark" >Git Repo</a>
-            <a href="https://ievgend2.github.io/forecast/" target="_blank" className="btn btn-dark" >Check weather</a>
+            <a href="https://github.com/ievgend2/battleship.git" target="_blank" className="btn btn-dark" >Git Repo</a>
+            <a href="https://ievgend2.github.io/battleship/" target="_blank" className="btn btn-dark" >Play Now</a>
           </div></div>
         </Card>
 
