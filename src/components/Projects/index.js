@@ -1,4 +1,6 @@
 import { Card, CardDeck } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom';
+
 import img1 from "../../image/project1.png"
 import img3 from "../../image/project3.png"
 import img4 from "../../image/project4.png"
@@ -6,10 +8,13 @@ import img5 from "../../image/project5.png"
 import img6 from "../../image/project6.png"
 import "../../index.css"
 
+import * as ROUTES from '../../constants/routes';
+
+
 
 function Projects() {
   return (
-    <div className="">
+    <div>
       <h1 className="text-center mb-5">Recent Projects</h1>
 
       <CardDeck className="">
@@ -43,7 +48,7 @@ function Projects() {
           </Card.Body>
           <div class="card-footer"> <div className="d-flex justify-content-around">
             <a href="https://github.com/ievgend2/MERN.git" target="_blank" className="btn btn-dark" >Git Repo</a>
-            <a href="#" target="_blank" className="btn btn-dark" >Shop Now!</a>
+            <NavLink className="btn btn-dark" to={ROUTES.MAINTENANCE}>Shop Now!</NavLink>
           </div></div>
         </Card>
 
@@ -106,10 +111,12 @@ function Projects() {
               <h5></h5>
             </Card.Text>
           </Card.Body>
-          <div class="card-footer"><div className="d-flex justify-content-around">
-            <a href="https://github.com/ievgend2/battleship.git" target="_blank" className="btn btn-dark" >Git Repo</a>
-            <a href="https://ievgend2.github.io/battleship/" target="_blank" className="btn btn-dark" >Play Now</a>
-          </div></div>
+          <div class="card-footer">
+            <div className="d-flex justify-content-around">
+              <a href="https://github.com/ievgend2/battleship.git" target="_blank" className="btn btn-dark" >Git Repo</a>
+              <a href="https://ievgend2.github.io/battleship/" target="_blank" className="btn btn-dark" >Play Now</a>
+            </div>
+          </div>
         </Card>
 
       </CardDeck>

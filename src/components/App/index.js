@@ -9,6 +9,7 @@ import Projects from '../Projects';
 
 import * as ROUTES from '../../constants/routes';
 import Footer from "../Footer";
+import Maintenance from "../Maintenance";
 
 
 
@@ -23,6 +24,7 @@ const App = () => (
         <Route exact path={ROUTES.PROJECTS} component={Projects} />
         <Route exact path={ROUTES.CONTACT} component={Contact} />
         <Route exact path={ROUTES.SKILLS} component={Skills} />
+        <Route exact path={ROUTES.MAINTENANCE} component={Maintenance} />
       </div>
       <Footer />
     </div>
