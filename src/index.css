@@ -746,7 +746,7 @@ h3 {
 	font-family:'Medium';
 	line-height: 120%;
 	font-size: 64px;
-	/* font-size: 1.780em; */
+	font-size: 1.780em;
 }
 
 h4 {
@@ -944,15 +944,15 @@ video {
 .label-logo:after { 
 	font-family:"Semibold";
 	font-size: 20px;
-    content:"dejan.";
+    content:"ievgen.";
 }
 .label-logo:hover:after{
-	content:"dejan.works";
+	content:"ievgen.developer";
 	white-space: nowrap;
 }
 		@media screen and (max-width: 767px) {
 			.label-logo:hover:after{
-				content:"dejan.";
+				content:"ievgen.";
 			}
 		}
 .label-logo{
@@ -1066,46 +1066,36 @@ video {
 .delay10 { -webkit-animation-delay: 1s; animation-delay: 1s;}
 .delay12 { -webkit-animation-delay: 1.2s; animation-delay: 1.2s;}
 
-/* ------ Background photo ------ */
-/* .bg-photo {	
-	z-index: -9;	
-	position: fixed;
-	top: 0; 
-	right: 0; 
-	bottom: 0; 
-	left: 35%;
-	background-repeat: no-repeat; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	 background-size: cover;
-	
-	-webkit-animation:bg-photo 1.2s cubic-bezier(.5, .6, .6, 1);
-	-moz-animation:bg-photo 1.2s cubic-bezier(.5, .6, .6, 1);
-	animation:bg-photo 1.2s cubic-bezier(.5, .6, .6, 1);	
-	-webkit-animation-fill-mode:backwards;
-	-moz-animation-fill-mode:backwards;
-	animation-fill-mode:backwards;
-}
-	@media screen and (max-width: 767px) {
-		.bg-photo {
-		-webkit-animation:bg-photo .6s cubic-bezier(.5, .6, .6, 1);
-		-moz-animation:bg-photo .6s cubic-bezier(.5, .6, .6, 1);
-		animation:bg-photo .6s cubic-bezier(.5, .6, .6, 1);		
-		}
-	}
-@-webkit-keyframes bg-photo {
-	0% {opacity: 0;transform: scale(1.1);}
-	100% {opacity: 1;transform: scale(1);}	
+.f-lg {
+  
 }
 
-@keyframes bg-photo {
-	0% {opacity: 0;transform: scale(1.1);}
-	100% {opacity: 1;transform: scale(1);}	
+.f-md {
+  font-size: 1.78rem !important;
 }
-		@media screen and (max-width:480px) {
-			.bg-photo {
-				left: -8%;
-			}	
-		} */
 
+.pb3 {
+  padding-bottom: 3rem !important;
+}
+
+.rotate {
+
+  /* transform: rotate(-90deg) !important; */
+  /* writing-mode: vertical-rl;
+  text-orientation: upright; */
+
+  /* writing-mode:tb-rl; */
+    font-size: 13vh;
+    -webkit-transform:rotate(-90deg) !important;
+    -moz-transform:rotate(-90deg)!important;
+    -o-transform: rotate(-90deg)!important;
+    -ms-transform:rotate(-90deg)!important;
+    transform: rotate(-90deg)!important;
+    white-space:nowrap!important;
+    display:block!important;
+    width:20px!important;
+    height:15px!important;
+    bottom: 0;
+    padding-top: 0.5em !important;
+
+}
