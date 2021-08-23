@@ -9,8 +9,8 @@ function MainPage() {
 
 function MainContent() {
   return (
-      <div className="max-width ">
-        <div className="vertical-center ">
+    <div className="max-width ">
+      <div className="vertical-center ">
         <h1 >
           <div className="hide-text-block ">
             <a href="about">
@@ -31,12 +31,12 @@ function MainContent() {
             </a>
           </div>
         </h1>
-		
-        </div>
-        
-	<div className="bg-photo"></div>
 
-	</div>
+      </div>
+
+      <div className="bg-photo"></div>
+
+    </div>
   );
 }
 
