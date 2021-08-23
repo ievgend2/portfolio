@@ -14,20 +14,14 @@ import Footer from "../Footer";
 import Maintenance from "../Maintenance";
 import MainPage from "../Main";
 
-
-
 const App = () => (
-
-
-
-  <Router basename="/">
+  <Router basename="/portfolio2.0/">
     <Route exact path={ROUTES.MAINPAGE} component={MainPage} />
-      <Route exact path={ROUTES.PROJECTS} component={Projects} />
-      <Route exact path={ROUTES.CONTACT} component={Contact} />
-      <Route exact path={ROUTES.SKILLS} component={Skills} />
-      <Route exact path={ROUTES.MAINTENANCE} component={Maintenance} />
+    <Route exact path={ROUTES.PROJECTS} component={Projects} />
+    <Route exact path={ROUTES.CONTACT} component={Contact} />
+    <Route exact path={ROUTES.SKILLS} component={Skills} />
+    <Route exact path={ROUTES.MAINTENANCE} component={Maintenance} />
   </Router>
 );
-
 
 export default App;
