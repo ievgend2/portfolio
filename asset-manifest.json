@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio2.0/static/css/main.f13d200a.chunk.css",
-    "main.js": "/portfolio2.0/static/js/main.7f3f923b.chunk.js",
-    "main.js.map": "/portfolio2.0/static/js/main.7f3f923b.chunk.js.map",
+    "main.js": "/portfolio2.0/static/js/main.35b78483.chunk.js",
+    "main.js.map": "/portfolio2.0/static/js/main.35b78483.chunk.js.map",
     "runtime-main.js": "/portfolio2.0/static/js/runtime-main.27fad651.js",
     "runtime-main.js.map": "/portfolio2.0/static/js/runtime-main.27fad651.js.map",
     "static/js/2.ffd27943.chunk.js": "/portfolio2.0/static/js/2.ffd27943.chunk.js",
@@ -13,7 +13,7 @@
     "static/css/main.f13d200a.chunk.css.map": "/portfolio2.0/static/css/main.f13d200a.chunk.css.map",
     "static/js/2.ffd27943.chunk.js.LICENSE.txt": "/portfolio2.0/static/js/2.ffd27943.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio2.0/static/media/main-bg.6a4c4662.jpg",
-    "static/media/ID Resume.b038f8fa.pdf": "/portfolio2.0/static/media/ID Resume.b038f8fa.pdf",
+    "static/media/ID Resume.bdd722d6.pdf": "/portfolio2.0/static/media/ID Resume.bdd722d6.pdf",
     "static/media/certification1.2bc4aa40.png": "/portfolio2.0/static/media/certification1.2bc4aa40.png",
     "static/media/certification2.a7c2263d.png": "/portfolio2.0/static/media/certification2.a7c2263d.png",
     "static/media/certification3.ad5fe8e7.png": "/portfolio2.0/static/media/certification3.ad5fe8e7.png",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.27fad651.js",
     "static/js/2.ffd27943.chunk.js",
     "static/css/main.f13d200a.chunk.css",
-    "static/js/main.7f3f923b.chunk.js"
+    "static/js/main.35b78483.chunk.js"
   ]
 }
