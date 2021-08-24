@@ -3,18 +3,30 @@ function Maintenance() {
 
 
   return (
-    <div>
-      <h5 className="mt-5">Scheduled Maintenance</h5>
-      <p>Sorry for the inconvenience but we&rsquo;re performing some maintenance at the moment. If you need to you can always <a href="history.back()">go back </a>
-   or <a href="mailto:ievgendotsenko@gmail.com">contact us</a>, otherwise we&rsquo;ll be back online shortly!</p>
-      <p>The Team</p>
+    <div class="top-bottom-margin website-background-black">
+      <h1 className="rotate f-lg">Maintenance</h1>
+
+      <div class="max-width text-color-white  ">
+        <div class="logo">
+          <div class="logo-inner">
+            <a href="/">
+              <div class="label-logo on-hover--40 text-color-white website-background-black"></div>
+            </a>
+          </div>
+        </div>
+        <p className="size-large">Sorry for the inconvenience but we&rsquo;re performing web-site maintenance at the moment. If you need to you can always <a href="history.back()" className="text-color-red">go back </a>
+          or <a href="mailto:ievgendotsenko@gmail.com" className="text-color-red">contact us</a> if you have any questions, otherwise we&rsquo;ll be back online shortly!</p>
+        <p className="size-large">The Team</p>
+      </div>
     </div>
+
   );
 }
 
 export default Maintenance;
 
 {/* <button type="button" onclick="javascript:history.back()">Back</button> */ }
+
 
 
 

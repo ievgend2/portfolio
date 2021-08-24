@@ -789,7 +789,7 @@ h6 {
 
 p {
 	line-height: 170%;
-	font-family:'Regular';
+	/* font-family:'Regular'; */
 	font-size: 18px;
 	margin-bottom: 3vh;
 }
@@ -895,11 +895,6 @@ img {
     max-width: 100%;
     max-height: 100%;
 	pointer-events: none !important;
-}
-video {
-	display: block;
-	max-width: 100%;
-	height: auto;
 }
 
 /* ------ Hide .lazy elements if JavaScript is off ------ */
@@ -1037,6 +1032,8 @@ video {
 	content:"Home";
 }
 
+
+
 .animate {
 	-webkit-animation:animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
 	-moz-animation:animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
@@ -1098,4 +1095,11 @@ video {
     bottom: 0;
     padding-top: 0.5em !important;
 
+}
+
+.links a {
+	display: block;
+	margin: 4vh 0;
+	font-family: "Medium";
+	font-size: 19px;	
 }

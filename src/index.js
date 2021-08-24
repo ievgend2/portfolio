@@ -12,7 +12,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App className="website-background-black"/>
+    <App className="website-background-black" />
 
   </React.StrictMode>,
   document.getElementById('root')
