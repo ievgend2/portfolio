@@ -8,7 +8,7 @@ function About() {
       <div className="max-width text-color-white  ">
         <div className="logo">
           <div className="logo-inner">
-            <a href="/">
+            <a href="/portfolio2.0">
               <div className="label-logo on-hover--40 text-color-white website-background-black"></div>
             </a>
           </div>
