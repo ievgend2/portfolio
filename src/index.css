@@ -853,7 +853,7 @@ blockquote {
 
 /* ------ Links ------ */
 a, a:after, a:visited {
-	text-decoration: none;
+	text-decoration: none !important;
 	cursor: pointer;
 	color: #000000;	
 }
@@ -874,12 +874,12 @@ a.text-color-red, a.text-color-red:after, a.text-color-red:visited {
 .on-hover-40:hover {
 	margin-left: 40px;
 	transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);	
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .on-hover--40:hover {
 	margin-left: -40px;
 	transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);	
-  text-decoration: none;
+  text-decoration: none !important;
 }
 		@media screen and (max-width: 767px) {
 			.on-hover-40:hover {

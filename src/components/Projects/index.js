@@ -21,7 +21,7 @@ function Projects() {
             <div class="on-hover-40 hide-text-block work-block pb3">
               <h2 class="text-color-white">Gift It</h2>
               <p class="size-small text-color-red">Ruby on Rails</p>
-              <p class="size-small text-color-white pb-3">Platform GiftIt was developed during the Code The Dream Bootcamp Internship where i was part of development team. </p>
+              <p class="size-small text-color-white pb-3">Platform GiftIt was developed during the Code The Dream Internship where i have current internship. </p>
               <p class="size-small text-color-white">Gift it was created to help those who aren't able to afford study courses or supplemental study materials for exams such as the Bar, MCAT, etc. We rely on the kindness of those who are in a position to gift their previously used study materials to others.</p>
             </div>
           </a>
@@ -32,7 +32,7 @@ function Projects() {
             <div class="on-hover-40 hide-text-block work-block pb3">
               <h2 class="text-color-white">Kayak Rental App</h2>
               <p class="size-small text-color-red">Ruby on Rails</p>
-              <p class="size-small text-color-white">This application serving as a tool to allow people rent kayaks at local lakes in North Carolina.</p>
+              <p class="size-small text-color-white">This application serving as a tool to allow people rent kayaks at local lakes  near Research Triangle Park, North Carolina.</p>
             </div>
           </a>
           {/* <!-- Work --> */}
