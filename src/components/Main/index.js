@@ -15,19 +15,19 @@ function MainContent() {
           <div className="hide-text-block ">
             <a href="#about">
               <div className="animate text-color-white on-hover-40 hide-web label-hello "></div>
-              {/* <div class="animate text-color-white on-hover-40 hide-mobile toggle-mobile-second">About</div> */}
+              <div class="animate text-color-white on-hover-40 hide-mobile toggle-mobile-second">About</div>
             </a>
           </div>
           <div className="hide-text-block">
             <a href="#projects">
               <div className="animate text-color-red on-hover-40 delay04 hide-web label-iam "></div>
-              {/* <div class="animate text-color-red on-hover-40 delay04 hide-mobile toggle-mobile-second">Work</div> */}
+              <div class="animate text-color-red on-hover-40 delay04 hide-mobile toggle-mobile-second">Work</div>
             </a>
           </div>
           <div className="hide-text-block">
             <a href="#contact">
               <div className="animate text-color-red on-hover-40 delay08 hide-web label-ievgen "></div>
-              {/* <div class="animate text-color-red on-hover-40 delay08 hide-mobile toggle-mobile-second">Contact</div> */}
+              <div class="animate text-color-red on-hover-40 delay08 hide-mobile toggle-mobile-second">Contact</div>
             </a>
           </div>
         </h1>

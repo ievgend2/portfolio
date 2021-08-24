@@ -9,7 +9,7 @@ function Projects() {
       <div class="max-width">
         <div class="logo">
           <div class="logo-inner">
-            <a href="/">
+            <a href="/portfolio2.0">
               <div class="label-logo on-hover--40 text-color-white website-background-black"></div>
             </a>
           </div>
@@ -28,7 +28,7 @@ function Projects() {
           {/* <!-- Work --> */}
 
           {/* <!-- Work --> */}
-          <a href="https://ievgend2.github.io/mayla_co/#/mayla-co/signin" target="blank">
+          <a href="#maintenance" target="blank">
             <div class="on-hover-40 hide-text-block work-block pb3">
               <h2 class="text-color-white">Kayak Rental App</h2>
               <p class="size-small text-color-red">Ruby on Rails</p>

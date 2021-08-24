@@ -6,7 +6,7 @@ function Contact() {
       <div class="max-width text-color-white  ">
         <div class="logo">
           <div class="logo-inner">
-            <a href="/">
+            <a href="/portfolio2.0">
               <div class="label-logo on-hover--40 text-color-white website-background-black"></div>
             </a>
           </div>

@@ -1103,3 +1103,57 @@ img {
 	font-family: "Medium";
 	font-size: 19px;	
 }
+
+
+@media screen and (min-width: 768px) {
+	.hide-mobile {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.hide-web {
+		display: none;
+	}
+	.toggle-mobile-second {
+		display: none;
+	}
+	.mobile-tap-area {
+		background: transparent;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+	.tap-indication {
+	    text-align: center;
+		width: 100%;
+		font-family:"Medium";
+		color: #ffffff;
+		position: fixed;
+		bottom: 4%;
+		font-size: 0.6em; /* general fallback */
+	    font-size: 3.6vm; /* IE9 fallback */
+	    font-size: 3.6vmin;
+		animation: bounce 1s infinite alternate;
+		
+		-webkit-animation:bounce .5s cubic-bezier(.5, .6, .6, 1) infinite alternate;
+		-moz-animation:bounce .5s cubic-bezier(.5, .6, .6, 1) infinite alternate;
+		animation:bounce .5s cubic-bezier(.5, .6, .6, 1) infinite alternate;	
+	}
+	@keyframes bounce {
+	  from {
+	    transform: translateY(0px);
+	  }
+	  to {
+	    transform: translateY(-8px);
+	  }
+	}
+	@-webkit-keyframes bounce {
+	  from {
+	    transform: translateY(0px);
+	  }
+	  to {
+	    transform: translateY(-8px);
+	  }
+	}
+}

@@ -9,12 +9,12 @@ function Maintenance() {
       <div class="max-width text-color-white  ">
         <div class="logo">
           <div class="logo-inner">
-            <a href="/">
+            <a href="/portfolio2.0">
               <div class="label-logo on-hover--40 text-color-white website-background-black"></div>
             </a>
           </div>
         </div>
-        <p className="size-large">Sorry for the inconvenience but we&rsquo;re performing web-site maintenance at the moment. If you need to you can always <a href="history.back()" className="text-color-red">go back </a>
+        <p className="size-large">Sorry for the inconvenience but we&rsquo;re performing web-site maintenance at the moment. If you need to you can always <a href="#projects" className="text-color-red">go back </a>
           or <a href="mailto:ievgendotsenko@gmail.com" className="text-color-red">contact us</a> if you have any questions, otherwise we&rsquo;ll be back online shortly!</p>
         <p className="size-large">The Team</p>
       </div>
