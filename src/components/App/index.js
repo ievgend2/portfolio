@@ -13,6 +13,7 @@ import * as ROUTES from '../../constants/routes';
 import Footer from "../Footer";
 import Maintenance from "../Maintenance";
 import MainPage from "../Main";
+import About from "../About";
 
 const App = () => (
   <Router basename="/portfolio2.0/">
@@ -21,6 +22,7 @@ const App = () => (
     <Route exact path={ROUTES.CONTACT} component={Contact} />
     <Route exact path={ROUTES.SKILLS} component={Skills} />
     <Route exact path={ROUTES.MAINTENANCE} component={Maintenance} />
+    <Route exact path={ROUTES.ABOUT} component={About} />
   </Router>
 );
 

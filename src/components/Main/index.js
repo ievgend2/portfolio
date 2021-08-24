@@ -13,7 +13,7 @@ function MainContent() {
       <div className="vertical-center ">
         <h1 >
           <div className="hide-text-block ">
-            <a href="about">
+            <a href="#about">
               <div className="animate text-color-white on-hover-40 hide-web label-hello "></div>
               {/* <div class="animate text-color-white on-hover-40 hide-mobile toggle-mobile-second">About</div> */}
             </a>

@@ -1,70 +1,100 @@
-import { Card, CardDeck } from 'react-bootstrap'
-import { NavLink } from 'react-router-dom';
-
-import img1 from "../../image/project1.png"
-import img3 from "../../image/project3.png"
-import img4 from "../../image/project4.png"
-import img5 from "../../image/project5.png"
-import img6 from "../../image/project6.png"
-import img7 from "../../image/project7.png"
 import "../../index.css"
-
-import * as ROUTES from '../../constants/routes';
 
 
 
 function Projects() {
   return (<div>
-    <h1 className="rotate f-lg">Recent Projects</h1>
+    <h1 className="rotate f-lg">Projects</h1>
     <div className="website-background-black">
+      <div class="max-width">
+        <div class="logo">
+          <div class="logo-inner">
+            <a href="/">
+              <div class="label-logo on-hover--40 text-color-white website-background-black"></div>
+            </a>
+          </div>
+        </div>
 
-<div class="max-width">	
+        <div class="top-bottom-margin ">
+          {/* <!-- Work --> */}
+          <a href="#maintenance" rel="noreferrer" target="_blank" >
+            <div class="on-hover-40 hide-text-block work-block pb3">
+              <h2 class="text-color-white">Gift It</h2>
+              <p class="size-small text-color-red">Ruby on Rails</p>
+              <p class="size-small text-color-white pb-3">Platform GiftIt was developed during the Code The Dream Bootcamp Internship where i was part of development team. </p>
+              <p class="size-small text-color-white">Gift it was created to help those who aren't able to afford study courses or supplemental study materials for exams such as the Bar, MCAT, etc. We rely on the kindness of those who are in a position to gift their previously used study materials to others.</p>
+            </div>
+          </a>
+          {/* <!-- Work --> */}
 
-	<div class="logo">
-		<div class="logo-inner">
-			<a href="/">
-				<div class="label-logo on-hover--40 text-color-white"></div>
-			</a>
-		</div>
-	</div>
-  
-	<div class="top-bottom-margin animate">	
-  	{/* <!-- Work --> */}
-		<a href="#https://ievgend2.github.io/mayla_co/#/mayla-co/signin" target="blank" >
-			<div class="on-hover-40 hide-text-block work-block pb3">
-				<h2 class="text-color-white">Gift It</h2>
-				<p class="size-small text-color-red f-md">Ruby on Rails</p>
-			</div>
-		</a>
-		{/* <!-- Work --> */}
+          {/* <!-- Work --> */}
+          <a href="https://ievgend2.github.io/mayla_co/#/mayla-co/signin" target="blank">
+            <div class="on-hover-40 hide-text-block work-block pb3">
+              <h2 class="text-color-white">Kayak Rental App</h2>
+              <p class="size-small text-color-red">Ruby on Rails</p>
+              <p class="size-small text-color-white">This application serving as a tool to allow people rent kayaks at local lakes in North Carolina.</p>
+            </div>
+          </a>
+          {/* <!-- Work --> */}
 
-  	{/* <!-- Work --> */}
-		<a href="#https://ievgend2.github.io/mayla_co/#/mayla-co/signin" target="blank">
-			<div class="on-hover-40 hide-text-block work-block pb3">
-				<h2 class="text-color-white">Kayak Rental App</h2>
-				<p class="size-small text-color-red">Ruby on Rails</p>
-			</div>
-		</a>
-		{/* <!-- Work --> */}
+          {/* <!-- Work --> */}
+          <a href="https://ievgend2.github.io/mayla_co/#/mayla-co/home" rel="noreferrer" target="_blank" >
+            <div class="on-hover-40 hide-text-block work-block pb3">
+              <h2 class="text-color-white">E-Commerce App</h2>
+              <p class="size-small text-color-red">React.js + Chrome Firebase</p>
+              <p class="size-small text-color-white">This application is a full cycle e-commerce platform, which allows users to create an account / sign in or continue as a guest, add items to the cart, watch your cart update, input profile information, proceed with the order and message the seller if needed. </p>
+            </div>
+          </a>
+          {/* <!-- Work --> */}
+          <a href="https://ievgend2.github.io/Tic-Tac-Toe/" rel="noreferrer" target="_blank" >
+            <div class="on-hover-40 hide-text-block work-block pb3">
+              <h2 class="text-color-white">Tic Tac Toe</h2>
+              <p class="size-small text-color-red">React.js + CSS3 + JavaScript</p>
+              <p class="size-small text-color-white">Description here</p>
+            </div>
+          </a>
+          {/* <!-- Work --> */}
+          <a href="https://ievgend2.github.io/student-enrollment-program/" rel="noreferrer" target="_blank" >
+            <div class="on-hover-40 hide-text-block work-block pb3">
+              <h2 class="text-color-white">Student Enrollment Program</h2>
+              <p class="size-small text-color-red">HTML5 + CSS3 + JavaScript + Bootstrap</p>
+              {/* <p class="size-small text-color-white">Description here</p> */}
+            </div>
+          </a>
+          {/* <!-- Work --> */}
+          <a href="https://ievgend2.github.io/forecast/" rel="noreferrer" target="_blank" >
+            <div class="on-hover-40 hide-text-block work-block pb3">
+              <h2 class="text-color-white">Weather Forecast</h2>
+              <p class="size-small text-color-red">HTML5 + CSS3 + JavaScript</p>
+              {/* <p class="size-small text-color-white">Description here</p> */}
+            </div>
+          </a>
+          {/* <!-- Work --> */}
+          <a href="https://ievgend2.github.io/forecast/" rel="noreferrer" target="_blank" >
+            <div class="on-hover-40 hide-text-block work-block pb3">
+              <h2 class="text-color-white">Battleship Game</h2>
+              <p class="size-small text-color-red">HTML5 + CSS3 + JavaScript</p>
+              {/* <p class="size-small text-color-white">Description here</p> */}
+            </div>
+          </a>
+          {/* <!-- Work --> */}
+          <a href="https://ievgend2.github.io/solar-system/" rel="noreferrer" target="_blank" >
+            <div class="on-hover-40 hide-text-block work-block pb3">
+              <h2 class="text-color-white">Solar System
+              </h2>
+              <p class="size-small text-color-red">JavaScript Canvas</p>
+              {/* <p class="size-small text-color-white">Code the Dream Bootcamp Acceptance project</p> */}
+            </div>
+          </a>
+          {/* <!-- Work --> */}
+        </div>
+      </div>
+    </div>
 
-		{/* <!-- Work --> */}
-		<a href="#https://ievgend2.github.io/mayla_co/#/mayla-co/signin" target="blank">
-			<div class="on-hover-40 hide-text-block work-block pb3">
-				<h2 class="text-color-white">E-Commerce App</h2>
-				<p class="size-small text-color-red">React.js + Chrome Firebase</p>
-			</div>
-		</a>
-		{/* <!-- Work --> */}
-	
-
-	</div>
-</div>
-</div>
 
 
 
-
-      {/* <CardDeck className="">
+    {/* <CardDeck className="">
         <Card className="text-center card-shadow  ">
           <Card.Body >
             <h5 className="card-header">E-Commerce Store<br />React.js + Chrome Firebase</h5>
@@ -80,7 +110,7 @@ function Projects() {
           </div></div>
         </Card> */}
 
-        {/* <Card className="text-center card-shadow " >
+    {/* <Card className="text-center card-shadow " >
           <Card.Body >
             <h5 className="card-header">E-Commerce Store <br />MERN Stack: MongoDB and Mongoose + Express + Node.js + React.js</h5>
 
@@ -95,7 +125,7 @@ function Projects() {
           </div></div>
         </Card> */}
 
-        {/* <Card className="text-center card-shadow " >
+    {/* <Card className="text-center card-shadow " >
           <Card.Body >
             <h5 className="card-header">Tic Tac Toe Game<br />React.js + CSS3 + JavaScript</h5>
             <a href="https://ievgend2.github.io/Tic-Tac-Toe/" rel="noreferrer" target="_blank"><Card.Img variant="top" src={img5} className="prj-img" /></a>
@@ -166,7 +196,7 @@ function Projects() {
         </Card>
 
       </CardDeck> */}
-    </div>
+  </div>
   );
 }
 
