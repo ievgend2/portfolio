@@ -1,6 +1,7 @@
 import "../../index.css"
-import  Certifications from "/Users/User9/Downloads/portfolio2.0/src/components/Resume/ID Certifications.pdf"
-import  Resume from "/Users/User9/Downloads/portfolio2.0/src/components/Resume/ID Resume.pdf"
+import Certifications from "../Resume/ID Certifications.pdf"
+import Resume from "../Resume/ID Resume.pdf"
+
 
 function About() {
   return (
@@ -20,8 +21,10 @@ function About() {
         <p className="size-large">You can read more about my experience, skills, education and much more in the PDF attached bellow:</p>
         <div className="links size-large">
           <div className="links" data-aos="fade-up">
-            <a href="/portfolio2.0/static/media/ID Resume.b038f8fa.pdf" rel="noopener noreferrer" target="_blank" className="on-hover-40 text-color-red">My resume (pdf 28kb)</a>
-            <a href= "/portfolio2.0/static/media/ID Certifications.3be71719.pdf" rel="noopener noreferrer" target="_blank" className="on-hover-40 text-color-red">My certifications (pdf 235kb)</a>
+            <a href={Resume} rel="noopener noreferrer" target="_blank" className="on-hover-40 text-color-red">My resume (pdf 28kb)</a>
+            {/* <a href="/portfolio2.0/static/media/ID Resume.b038f8fa.pdf" rel="noopener noreferrer" target="_blank" className="on-hover-40 text-color-red">My resume (pdf 28kb)</a> */}
+            <a href={Certifications} rel="noopener noreferrer" target="_blank" className="on-hover-40 text-color-red">My certifications (pdf 235kb)</a>
+            {/* <a href="/portfolio2.0/static/media/ID Certifications.3be71719.pdf" rel="noopener noreferrer" target="_blank" className="on-hover-40 text-color-red">My certifications (pdf 235kb)</a> */}
           </div>
         </div>
       </div>

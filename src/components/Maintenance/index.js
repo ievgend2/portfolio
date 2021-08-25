@@ -3,14 +3,14 @@ function Maintenance() {
 
 
   return (
-    <div class="top-bottom-margin website-background-black">
+    <div className="top-bottom-margin website-background-black">
       <h1 className="rotate f-lg">Maintenance</h1>
 
-      <div class="max-width text-color-white  ">
-        <div class="logo">
-          <div class="logo-inner">
+      <div className="max-width text-color-white  ">
+        <div className="logo">
+          <div className="logo-inner">
             <a href="/portfolio2.0">
-              <div class="label-logo on-hover--40 text-color-white website-background-black"></div>
+              <div className="label-logo on-hover--40 text-color-white website-background-black"></div>
             </a>
           </div>
         </div>
