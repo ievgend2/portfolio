@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio2.0/static/css/main.f60de115.chunk.css",
-    "main.js": "/portfolio2.0/static/js/main.367b136b.chunk.js",
-    "main.js.map": "/portfolio2.0/static/js/main.367b136b.chunk.js.map",
+    "main.css": "/portfolio2.0/static/css/main.af76b849.chunk.css",
+    "main.js": "/portfolio2.0/static/js/main.f97241d5.chunk.js",
+    "main.js.map": "/portfolio2.0/static/js/main.f97241d5.chunk.js.map",
     "runtime-main.js": "/portfolio2.0/static/js/runtime-main.27fad651.js",
     "runtime-main.js.map": "/portfolio2.0/static/js/runtime-main.27fad651.js.map",
     "static/js/2.ffd27943.chunk.js": "/portfolio2.0/static/js/2.ffd27943.chunk.js",
@@ -10,11 +10,11 @@
     "static/js/3.1092f267.chunk.js": "/portfolio2.0/static/js/3.1092f267.chunk.js",
     "static/js/3.1092f267.chunk.js.map": "/portfolio2.0/static/js/3.1092f267.chunk.js.map",
     "index.html": "/portfolio2.0/index.html",
-    "static/css/main.f60de115.chunk.css.map": "/portfolio2.0/static/css/main.f60de115.chunk.css.map",
+    "static/css/main.af76b849.chunk.css.map": "/portfolio2.0/static/css/main.af76b849.chunk.css.map",
     "static/js/2.ffd27943.chunk.js.LICENSE.txt": "/portfolio2.0/static/js/2.ffd27943.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio2.0/static/media/main-bg.b1c6e6f4.jpg",
-    "static/media/ID Certifications.3be71719.pdf": "/portfolio2.0/static/media/ID Certifications.3be71719.pdf",
-    "static/media/ID Resume.5beecee1.pdf": "/portfolio2.0/static/media/ID Resume.5beecee1.pdf",
+    "static/media/ID Certifications.83af63f6.pdf": "/portfolio2.0/static/media/ID Certifications.83af63f6.pdf",
+    "static/media/ID Resume.ff5b9932.pdf": "/portfolio2.0/static/media/ID Resume.ff5b9932.pdf",
     "static/media/certification1.2bc4aa40.png": "/portfolio2.0/static/media/certification1.2bc4aa40.png",
     "static/media/certification2.a7c2263d.png": "/portfolio2.0/static/media/certification2.a7c2263d.png",
     "static/media/certification3.ad5fe8e7.png": "/portfolio2.0/static/media/certification3.ad5fe8e7.png",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.27fad651.js",
     "static/js/2.ffd27943.chunk.js",
-    "static/css/main.f60de115.chunk.css",
-    "static/js/main.367b136b.chunk.js"
+    "static/css/main.af76b849.chunk.css",
+    "static/js/main.f97241d5.chunk.js"
   ]
 }
