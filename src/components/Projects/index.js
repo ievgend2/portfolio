@@ -70,7 +70,7 @@ function Projects() {
             </div>
           </a>
           {/* <!-- Work --> */}
-          <a href="https://ievgend2.github.io/forecast/" rel="noreferrer" target="_blank" >
+          <a href="https://ievgend2.github.io/battleship/" rel="noreferrer" target="_blank" >
             <div class="on-hover-40 hide-text-block work-block pb3">
               <h2 class="text-color-white">Battleship Game</h2>
               <p class="size-small text-color-red">HTML5 + CSS3 + JavaScript</p>
