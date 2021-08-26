@@ -16,14 +16,16 @@ function About() {
             </a>
           </div>
         </div>
-        <p className="size-large">Hi, I`m Ievgen. I am software developer with need to add here more text below:</p>
-        <p className="size-large">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        <p className="size-large">Hi, I`m Ievgen.</p>
+        <p className="size-large">Result-driven and highly motivated software developer with a huge desire to grow.</p>
+        <p className="size-large">I’m ready to bring value to the place where I work, contribute on my own or as part of the team to meet company goals.</p>
+        <p className="size-large">I believe skills can be taught, but personality is inherent. I prefer to keep learning, continue challenging myself, and do interesting things that matter.</p>
         <p className="size-large">You can read more about my experience, skills, education and much more in the PDF attached bellow:</p>
         <div className="links size-large">
           <div className="links" data-aos="fade-up">
-            <a href={Resume} rel="noopener noreferrer" target="_blank" className="on-hover-40 text-color-red">My resume (pdf 28kb)</a>
+            <a href={Resume} rel="noopener noreferrer" target="_blank" className="on-hover-40 text-color-red">My resume (pdf 81kb)</a>
             {/* <a href="/portfolio2.0/static/media/ID Resume.b038f8fa.pdf" rel="noopener noreferrer" target="_blank" className="on-hover-40 text-color-red">My resume (pdf 28kb)</a> */}
-            <a href={Certifications} rel="noopener noreferrer" target="_blank" className="on-hover-40 text-color-red">My certifications (pdf 235kb)</a>
+            <a href={Certifications} rel="noopener noreferrer" target="_blank" className="on-hover-40 text-color-red">My certifications (pdf 203kb)</a>
             {/* <a href="/portfolio2.0/static/media/ID Certifications.3be71719.pdf" rel="noopener noreferrer" target="_blank" className="on-hover-40 text-color-red">My certifications (pdf 235kb)</a> */}
           </div>
         </div>

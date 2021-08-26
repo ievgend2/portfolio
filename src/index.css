@@ -346,9 +346,9 @@ img {
 } 
 
 .max-width {
-	max-width: 60%;
-	max-width: 40.em;
-	margin: 0 auto;
+	max-width: 60% !important;
+	max-width: 40.em !important;
+	margin: 0 auto !important;
 }
 		@media screen and (max-width: 767px) {
 			.max-width {
@@ -435,10 +435,10 @@ img {
 
 /*----------------------------------------------------------------------------------------------------  */
 .vertical-center {
-	position: absolute;
-	height: 100%;
+	position: absolute !important;
+	height: 100% !important;
 	display: -webkit-flex; /* Safari */
-	display: flex;  
+	display: flex !important;  
 	-webkit-align-items: center; /* Safari */
 	align-items:   center;
 }
@@ -453,7 +453,7 @@ img {
     content:"I am";
 }
 .label-iam:hover:after{
-	content:"Work";
+	content:"Projects";
 }
 .label-ievgen:after{
     content:"Ievgen";
@@ -486,7 +486,7 @@ img {
 }
 
 @keyframes animate {
-	0% {opacity: 0;transform: translateY(30vh);} /* WORK ON THISSS! */
+	0% {opacity: 0;transform: translateY(30vh);} 
 /* 	0% {transform: translateY(100%);} */
 	100% {opacity: 1;transform: translateY(0%);}	
 }
