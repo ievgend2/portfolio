@@ -28,7 +28,7 @@ function Projects() {
           {/* <!-- Work --> */}
 
           {/* <!-- Work --> */}
-          <a href="#maintenance" target="blank">
+          <a href="https://kayak-rental.herokuapp.com/" target="blank">
             <div className="on-hover-40 hide-text-block work-block pb3">
               <h2 className="text-color-white">Kayak Rental App</h2>
               <p className="size-small text-color-red">Ruby on Rails</p>
