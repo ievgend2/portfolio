@@ -16,26 +16,7 @@ function Projects() {
         </div>
 
         <div class="top-bottom-margin ">
-          {/* <!-- Work --> */}
-          <a href="#maintenance" rel="noreferrer" target="_blank" >
-            <div className="on-hover-40 hide-text-block work-block pb3">
-              <h2 className="text-color-white">Gift It</h2>
-              <p className="size-small text-color-red">Ruby on Rails</p>
-              <p className="size-small text-color-white pb-3">Platform GiftIt was developed during the Code The Dream Internship where i have current internship. </p>
-              <p className="size-small text-color-white">Gift it was created to help those who aren't able to afford study courses or supplemental study materials for exams such as the Bar, MCAT, etc. We rely on the kindness of those who are in a position to gift their previously used study materials to others.</p>
-            </div>
-          </a>
-          {/* <!-- Work --> */}
 
-          {/* <!-- Work --> */}
-          <a href="https://kayak-rental.herokuapp.com/" target="blank">
-            <div className="on-hover-40 hide-text-block work-block pb3">
-              <h2 className="text-color-white">Kayak Rental App</h2>
-              <p className="size-small text-color-red">Ruby on Rails</p>
-              <p className="size-small text-color-white">This application serving as a tool to allow people rent kayaks at local lakes  near Research Triangle Park, North Carolina.</p>
-            </div>
-          </a>
-          {/* <!-- Work --> */}
 
           {/* <!-- Work --> */}
           <a href="https://ievgend2.github.io/mayla_co/#/mayla-co/home" rel="noreferrer" target="_blank" >
@@ -53,6 +34,28 @@ function Projects() {
               <p class="size-small text-color-white">Description here</p>
             </div>
           </a>
+
+          {/* <!-- Work --> */}
+          {/* <a href="https://gift-it-practicum.herokuapp.com/" rel="noreferrer" target="_blank" > */}
+          <a href="#maintenance" target="blank">
+            <div className="on-hover-40 hide-text-block work-block pb3">
+              <h2 className="text-color-white">Gift It</h2>
+              <p className="size-small text-color-red">Ruby on Rails</p>
+              <p className="size-small text-color-white pb-3">Platform GiftIt was developed during the Code The Dream Internship where i have current internship. </p>
+              <p className="size-small text-color-white">Gift it was created to help those who aren't able to afford study courses or supplemental study materials for exams such as the Bar, MCAT, etc. We rely on the kindness of those who are in a position to gift their previously used study materials to others.</p>
+            </div>
+          </a>
+          {/* <!-- Work --> */}
+
+          {/* <!-- Work --> */}
+          <a href="#maintenance" target="blank">
+            <div className="on-hover-40 hide-text-block work-block pb3">
+              <h2 className="text-color-white">Kayak Rental App</h2>
+              <p className="size-small text-color-red">Ruby on Rails</p>
+              <p className="size-small text-color-white">This application serving as a tool to allow people rent kayaks at local lakes  near Research Triangle Park, North Carolina.</p>
+            </div>
+          </a>
+          {/* <!-- Work --> */}
           {/* <!-- Work --> */}
           <a href="https://ievgend2.github.io/student-enrollment-program/" rel="noreferrer" target="_blank" >
             <div class="on-hover-40 hide-text-block work-block pb3">
