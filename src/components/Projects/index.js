@@ -7,6 +7,7 @@ import project4 from '../../image/project4.png'
 import project5 from '../../image/project5.png'
 import project6 from '../../image/project6.png'
 import project7 from '../../image/project7.png'
+import project8 from '../../image/project8.png'
 
 function Projects() {
   return (
@@ -32,7 +33,7 @@ function Projects() {
               <div class="on-hover-40 hide-text-block work-block pb3">
                 <div className="d-flex">
                   <div className="d-flex align-items-center col-3">
-                    <img src={aact}></img>
+                    <img src={aact} alt=""></img>
                   </div>
                   <div>
                     <h2 class="text-color-white">AACT</h2>
@@ -47,7 +48,7 @@ function Projects() {
                       Transformation Initiative and the FDA. It's used by
                       researchers to monitor and investigate clinical trials.
                       Improved elements of the UI interface to allow better user
-                      experience.{' '}
+                      experience.
                     </p>
                   </div>
                 </div>
@@ -112,6 +113,11 @@ function Projects() {
             >
               {/* <a href="#maintenance" target="blank"> */}
               <div className="on-hover-40 hide-text-block work-block pb3">
+              <div className="d-flex">
+                  <div className="d-flex align-items-center col-3">
+                    <img src={project8} alt=""></img>
+                  </div>
+                  <div>
                 <h2 className="text-color-white">Gift It</h2>
                 <p className="size-small text-color-red">Ruby on Rails</p>
                 <p className="size-small text-color-white pb-3">
@@ -125,6 +131,8 @@ function Projects() {
                   are in a position to gift their previously used study
                   materials to others.
                 </p>
+              </div>
+              </div>
               </div>
             </a>
             {/* <!-- Work --> */}

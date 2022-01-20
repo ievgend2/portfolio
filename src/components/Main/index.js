@@ -1,8 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-
-import * as ROUTES from "../../constants/routes";
-
 function MainPage() {
   return <MainContent />;
 }

@@ -41,7 +41,7 @@ function About() {
               target="_blank"
               className="on-hover-40 text-color-red"
             >
-              My resume (pdf 81kb)
+              My resume (pdf 57kb)
             </a>
             {/* <a href="/portfolio/static/media/ID Resume.b038f8fa.pdf" rel="noopener noreferrer" target="_blank" className="on-hover-40 text-color-red">My resume (pdf 28kb)</a> */}
             <a
@@ -50,7 +50,7 @@ function About() {
               target="_blank"
               className="on-hover-40 text-color-red"
             >
-              My certifications (pdf 203kb)
+              My certifications (pdf 223kb)
             </a>
             {/* <a href="/portfolio/static/media/ID Certifications.3be71719.pdf" rel="noopener noreferrer" target="_blank" className="on-hover-40 text-color-red">My certifications (pdf 235kb)</a> */}
           </div>

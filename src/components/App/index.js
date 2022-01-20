@@ -4,13 +4,11 @@ import './app.css'
 import '../../index.css'
 import '../../../src/'
 
-import Navigation from '../Navigation'
 import Skills from '../Skills'
 import Contact from '../Contact'
 import Projects from '../Projects'
 
 import * as ROUTES from '../../constants/routes'
-import Footer from '../Footer'
 import Maintenance from '../Maintenance'
 import MainPage from '../Main'
 import About from '../About'
