@@ -1,6 +1,7 @@
 import '../../index.css'
 import aact from '../../image/CTTI.svg'
 import project1 from '../../image/project1.png'
+import project2 from '../../image/project2.png'
 import project3 from '../../image/project3.png'
 import project4 from '../../image/project4.png'
 import project5 from '../../image/project5.png'
@@ -104,8 +105,12 @@ function Projects() {
             </a>
 
             {/* <!-- Work --> */}
-            {/* <a href="https://gift-it-practicum.herokuapp.com/" rel="noreferrer" target="_blank" > */}
-            <a href="#maintenance" target="blank">
+            <a
+              href="https://gift-it-practicum.herokuapp.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              {/* <a href="#maintenance" target="blank"> */}
               <div className="on-hover-40 hide-text-block work-block pb3">
                 <h2 className="text-color-white">Gift It</h2>
                 <p className="size-small text-color-red">Ruby on Rails</p>
@@ -125,15 +130,26 @@ function Projects() {
             {/* <!-- Work --> */}
 
             {/* <!-- Work --> */}
-            <a href="#maintenance" target="blank">
+            <a
+              href="https://letmerentkayak.herokuapp.com/"
+              rel="noreferrer"
+              target="_blank"
+            >
               <div className="on-hover-40 hide-text-block work-block pb3">
-                <h2 className="text-color-white">Kayak Rental App</h2>
-                <p className="size-small text-color-red">Ruby on Rails</p>
-                <p className="size-small text-color-white">
-                  This application serving as a tool to allow people rent kayaks
-                  at local lakes near the Research Triangle Park, North
-                  Carolina.
-                </p>
+                <div className="d-flex">
+                  <div className="d-flex align-items-center col-3">
+                    <img src={project2} alt="E-Commerce App"></img>
+                  </div>
+                  <div>
+                    <h2 className="text-color-white">Kayak Rental App</h2>
+                    <p className="size-small text-color-red">Ruby on Rails</p>
+                    <p className="size-small text-color-white">
+                      This application serving as a tool to allow people rent
+                      kayaks at local lakes near the Research Triangle Park,
+                      North Carolina.
+                    </p>
+                  </div>
+                </div>
               </div>
             </a>
             {/* <!-- Work --> */}
