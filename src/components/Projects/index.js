@@ -1,5 +1,6 @@
 import '../../index.css'
 import aact from '../../image/CTTI.svg'
+import project0 from '../../image/project0.jpg'
 import project1 from '../../image/project1.png'
 import project2 from '../../image/project2.png'
 import project3 from '../../image/project3.png'
@@ -24,6 +25,39 @@ function Projects() {
           </div>
 
           <div class="top-bottom-margin ">
+            {/* <!-- Work --> */}
+            <a
+              href="https://www.tangoe.com/tangoe-one/"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <div class="on-hover-40 hide-text-block work-block pb3">
+                <div className="d-flex">
+                  <div className="d-flex align-items-center col-3">
+                    <img src={project0} alt="TangoeOne"></img>
+                  </div>
+                  <div>
+                    <h2 class="text-color-white">TangoeOne</h2>
+                    {/* <h3 class="text-color-white">
+                    Tangoe One is a comprehensive platform to simplify, manage, and optimize expenses and inventory across fixed, mobile, and cloud technologies. Powered by artificial intelligence and machine learning, the Tangoe One platform delivers positive business outcomes to enterprises of all sizes.
+                    </h3> */}
+                    <p class="size-small text-color-red">Ruby on Rails | Angular</p>
+                    <p class="size-small text-color-white">
+                    • Established integration between Tangoe One application and AppleCare for Enterprise.
+                    </p>
+                    <p class="size-small text-color-white">
+                    • Configured/Developed the process for bulk ordering of the AppleCare for iOS devices, utilizing remote library.
+                    </p>
+                    <p class="size-small text-color-white">
+                    • Incorporated an entire process of the device repair workflow in Tangoe One application
+                    </p>
+                    <p class="size-small text-color-white">
+                    • Integrated Apple Global Service Exchange into Tangoe One application.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
             {/* <!-- Work --> */}
             <a
               href="https://aact.ctti-clinicaltrials.org/"
@@ -68,7 +102,7 @@ function Projects() {
                   <div>
                     <h2 class="text-color-white">E-Commerce App</h2>
                     <p class="size-small text-color-red">
-                      React.js + Chrome Firebase
+                      React.js | Chrome Firebase
                     </p>
                     <p class="size-small text-color-white">
                       This application is a full cycle e-commerce platform,
@@ -95,7 +129,7 @@ function Projects() {
                   <div>
                     <h2 class="text-color-white">Tic Tac Toe</h2>
                     <p class="size-small text-color-red">
-                      React.js + CSS3 + JavaScript
+                      React.js | CSS3 | JavaScript
                     </p>
                     <p class="size-small text-color-white">
                       Play the classic Tic-Tac-Toe game.
@@ -139,7 +173,7 @@ function Projects() {
 
             {/* <!-- Work --> */}
             <a
-              href="https://letmerentkayak.herokuapp.com/"
+              href="https://ievgend2.github.io/portfolio/#/maintenance"
               rel="noreferrer"
               target="_blank"
             >
@@ -161,7 +195,6 @@ function Projects() {
               </div>
             </a>
             {/* <!-- Work --> */}
-            {/* <!-- Work --> */}
             <a
               href="https://ievgend2.github.io/student-enrollment-program/"
               rel="noreferrer"
@@ -175,7 +208,7 @@ function Projects() {
                   <div>
                     <h2 class="text-color-white">Student Enrollment Program</h2>
                     <p class="size-small text-color-red">
-                      HTML5 + CSS3 + JavaScript + Bootstrap
+                      HTML5 | CSS3 | JavaScript | Bootstrap
                     </p>
                     {/* <p class="size-small text-color-white">Description here</p> */}
                   </div>
@@ -196,7 +229,7 @@ function Projects() {
                   <div>
                     <h2 class="text-color-white">Weather Forecast</h2>
                     <p class="size-small text-color-red">
-                      HTML5 + CSS3 + JavaScript
+                      HTML5 | CSS3 | JavaScript
                     </p>
                     <p class="size-small text-color-white">
                       This is a simple weather app. Enter the name of the city
@@ -220,7 +253,7 @@ function Projects() {
                   <div>
                     <h2 class="text-color-white">Battleship Game</h2>
                     <p class="size-small text-color-red">
-                      HTML5 + CSS3 + JavaScript
+                      HTML5 | CSS3 | JavaScript
                     </p>
                     <p class="size-small text-color-white">
                       Play the classic Battleship game.

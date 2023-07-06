@@ -4,7 +4,6 @@ import './app.css'
 import '../../index.css'
 import '../../../src/'
 
-import Skills from '../Skills'
 import Contact from '../Contact'
 import Projects from '../Projects'
 
@@ -18,7 +17,6 @@ const App = () => (
     <Route exact path={ROUTES.MAINPAGE} component={MainPage} />
     <Route exact path={ROUTES.PROJECTS} component={Projects} />
     <Route exact path={ROUTES.CONTACT} component={Contact} />
-    <Route exact path={ROUTES.SKILLS} component={Skills} />
     <Route exact path={ROUTES.MAINTENANCE} component={Maintenance} />
     <Route exact path={ROUTES.ABOUT} component={About} />
   </Router>
