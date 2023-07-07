@@ -1,14 +1,14 @@
-import '../../index.css'
-import aact from '../../image/CTTI.svg'
-import project0 from '../../image/project0.jpg'
-import project1 from '../../image/project1.png'
-import project2 from '../../image/project2.png'
-import project3 from '../../image/project3.png'
-import project4 from '../../image/project4.png'
-import project5 from '../../image/project5.png'
-import project6 from '../../image/project6.png'
-import project7 from '../../image/project7.png'
-import project8 from '../../image/project8.png'
+import "../../index.css";
+import aact from "../../image/CTTI.svg";
+import project0 from "../../image/project0.jpg";
+import project1 from "../../image/project1.png";
+import project2 from "../../image/project2.png";
+import project3 from "../../image/project3.png";
+import project4 from "../../image/project4.png";
+import project5 from "../../image/project5.png";
+import project6 from "../../image/project6.png";
+import project7 from "../../image/project7.png";
+import project8 from "../../image/project8.png";
 
 function Projects() {
   return (
@@ -41,18 +41,24 @@ function Projects() {
                     {/* <h3 class="text-color-white">
                     Tangoe One is a comprehensive platform to simplify, manage, and optimize expenses and inventory across fixed, mobile, and cloud technologies. Powered by artificial intelligence and machine learning, the Tangoe One platform delivers positive business outcomes to enterprises of all sizes.
                     </h3> */}
-                    <p class="size-small text-color-red">Ruby on Rails | Angular [ June 2022 - Present ]</p>
-                    <p class="size-small text-color-white">
-                    • Established integration between Tangoe One application and AppleCare for Enterprise.
+                    <p class="size-small text-color-red">
+                      Ruby on Rails | Angular [ June 2022 - Present ]
                     </p>
                     <p class="size-small text-color-white">
-                    • Configured/Developed the process for bulk ordering of the AppleCare for iOS devices, utilizing remote library.
+                      • Established integration between Tangoe One application
+                      and AppleCare for Enterprise.
                     </p>
                     <p class="size-small text-color-white">
-                    • Incorporated an entire process of the device repair workflow in Tangoe One application.
+                      • Configured/Developed the process for bulk ordering of
+                      the AppleCare for iOS devices, utilizing remote library.
                     </p>
                     <p class="size-small text-color-white">
-                    • Integrated Apple Global Service Exchange into Tangoe One application.
+                      • Incorporated an entire process of the device repair
+                      workflow in Tangoe One application.
+                    </p>
+                    <p class="size-small text-color-white">
+                      • Integrated Apple Global Service Exchange into Tangoe One
+                      application.
                     </p>
                   </div>
                 </div>
@@ -74,7 +80,9 @@ function Projects() {
                     <h3 class="text-color-white">
                       Access to Aggregate Content of ClinicalTrials.gov
                     </h3>
-                    <p class="size-small text-color-red">Ruby on Rails [ October 2021 - Present ]</p>
+                    <p class="size-small text-color-red">
+                      Ruby on Rails [ October 2021 - Present ]
+                    </p>
                     <p class="size-small text-color-white">
                       Was brought onto a team to do maintenance and upgrades for
                       AACT (Aggregate Analysis of Clinical Trials). AACT is the
@@ -147,26 +155,26 @@ function Projects() {
             >
               {/* <a href="#maintenance" target="blank"> */}
               <div className="on-hover-40 hide-text-block work-block pb3">
-              <div className="d-flex">
+                <div className="d-flex">
                   <div className="d-flex align-items-center col-3">
                     <img src={project8} alt=""></img>
                   </div>
                   <div>
-                <h2 className="text-color-white">Gift It</h2>
-                <p className="size-small text-color-red">Ruby on Rails</p>
-                <p className="size-small text-color-white pb-3">
-                  Platform GiftIt was developed during the Code The Dream
-                  Internship.
-                </p>
-                <p className="size-small text-color-white">
-                  Gift it was created to help those who aren't able to afford
-                  study courses or supplemental study materials for exams such
-                  as the Bar, MCAT, etc. We rely on the kindness of those who
-                  are in a position to gift their previously used study
-                  materials to others.
-                </p>
-              </div>
-              </div>
+                    <h2 className="text-color-white">Gift It</h2>
+                    <p className="size-small text-color-red">Ruby on Rails</p>
+                    <p className="size-small text-color-white pb-3">
+                      Platform GiftIt was developed during the Code The Dream
+                      Internship.
+                    </p>
+                    <p className="size-small text-color-white">
+                      Gift it was created to help those who aren't able to
+                      afford study courses or supplemental study materials for
+                      exams such as the Bar, MCAT, etc. We rely on the kindness
+                      of those who are in a position to gift their previously
+                      used study materials to others.
+                    </p>
+                  </div>
+                </div>
               </div>
             </a>
             {/* <!-- Work --> */}
@@ -285,7 +293,7 @@ function Projects() {
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Projects
+export default Projects;

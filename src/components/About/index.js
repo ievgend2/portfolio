@@ -1,6 +1,6 @@
-import '../../index.css'
-import Certifications from '../Resume/ID Certifications.pdf'
-import Resume from '../Resume/ID Resume.pdf'
+import "../../index.css";
+import Certifications from "../Resume/ID Certifications.pdf";
+import Resume from "../Resume/ID Resume.pdf";
 
 function About() {
   return (
@@ -41,23 +41,21 @@ function About() {
               target="_blank"
               className="on-hover-40 text-color-red"
             >
-              My resume (pdf 57kb)
+              My resume (pdf 154kb)
             </a>
-            {/* <a href="/portfolio/static/media/ID Resume.b038f8fa.pdf" rel="noopener noreferrer" target="_blank" className="on-hover-40 text-color-red">My resume (pdf 28kb)</a> */}
             <a
               href={Certifications}
               rel="noopener noreferrer"
               target="_blank"
               className="on-hover-40 text-color-red"
             >
-              My certifications (pdf 223kb)
+              My certifications (pdf 875kb)
             </a>
-            {/* <a href="/portfolio/static/media/ID Certifications.3be71719.pdf" rel="noopener noreferrer" target="_blank" className="on-hover-40 text-color-red">My certifications (pdf 235kb)</a> */}
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
