@@ -41,7 +41,7 @@ function Projects() {
                     {/* <h3 class="text-color-white">
                     Tangoe One is a comprehensive platform to simplify, manage, and optimize expenses and inventory across fixed, mobile, and cloud technologies. Powered by artificial intelligence and machine learning, the Tangoe One platform delivers positive business outcomes to enterprises of all sizes.
                     </h3> */}
-                    <p class="size-small text-color-red">Ruby on Rails | Angular</p>
+                    <p class="size-small text-color-red">Ruby on Rails | Angular [ June 2022 - Present ]</p>
                     <p class="size-small text-color-white">
                     • Established integration between Tangoe One application and AppleCare for Enterprise.
                     </p>
@@ -74,7 +74,7 @@ function Projects() {
                     <h3 class="text-color-white">
                       Access to Aggregate Content of ClinicalTrials.gov
                     </h3>
-                    <p class="size-small text-color-red">Ruby on Rails</p>
+                    <p class="size-small text-color-red">Ruby on Rails [ October 2021 - Present ]</p>
                     <p class="size-small text-color-white">
                       Was brought onto a team to do maintenance and upgrades for
                       AACT (Aggregate Analysis of Clinical Trials). AACT is the
