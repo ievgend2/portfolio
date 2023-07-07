@@ -49,7 +49,7 @@ function Projects() {
                     • Configured/Developed the process for bulk ordering of the AppleCare for iOS devices, utilizing remote library.
                     </p>
                     <p class="size-small text-color-white">
-                    • Incorporated an entire process of the device repair workflow in Tangoe One application
+                    • Incorporated an entire process of the device repair workflow in Tangoe One application.
                     </p>
                     <p class="size-small text-color-white">
                     • Integrated Apple Global Service Exchange into Tangoe One application.
