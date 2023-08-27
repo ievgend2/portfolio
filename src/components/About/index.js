@@ -41,7 +41,7 @@ function About() {
               target="_blank"
               className="on-hover-40 text-color-red"
             >
-              My resume (pdf 154kb)
+              My resume (pdf 176kb)
             </a>
             <a
               href={Certifications}
